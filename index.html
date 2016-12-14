@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel='shortcut icon' href='images/logos/favicon.gif' type='image/x-icon'/>
+
+  	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script>
+		jQuery(function($) {
+		$('.navbar .dropdown').hover(function() {
+		$(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+
+		}, function() {
+		$(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp();
+
+		});
+
+		$('.navbar .dropdown > a').click(function(){
+		location.href = this.href;
+		});
+
+		});
+	</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-82821236-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+  	<title>Rebecca Zweibel Pottery</title>
+</head>
+<body class="font">
+<!--NAVIGATION BAR BEGINS-->
+	<nav class="navbar navbar-default navbar-fixed-top nav-transparent">
+		<div class="container container-width">
+
+		<!--logo for reg screens-->
+				<a class="navbar-brand" href="index.html">
+					<p>Rebecca Zweibel Pottery</p>
+					<!-- <img class="brand-image nav-logo" src="images/logos/logo.svg" alt="Rebecca Zweibel logo"> -->
+				</a> 
+
+
+		<!--logo for med and small screens DELETE IF NOT USING .AI FILE-->
+				<!-- <a class="navbar-brand hidden-md hidden-lg" href="index.html">
+					<p>Rebecca Zweibel Pottery</p>
+					<img id="mobile-logo" class="brand-image" src="images/logos/logo.svg" alt="logo">
+				</a>-->	
+
+
+			<button class="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<div class="collapse navbar-collapse navHeaderCollapse nav-font-size">
+				<ul class="nav navbar-nav navbar-right">
+		<!--ceramic links-->
+					<li class="dropdown"> 
+	            		<a href=".html" class="dropdown-toggle" data-toggle="dropdown">Ceramic <b class="caret"></b></a>
+			            	<ul class="dropdown-menu nav-font-size">
+								<li><a href="ceramic.html#abstract">abstract</a></li>
+								<li><a href="ceramic.html#bowls">bowls</a></li>
+								<li><a href="ceramic.html#figures">figures</a></li>
+								<li><a href="ceramic.html#vessles">vessles</a></li>
+							</ul>
+					</li>
+		<!--wire links-->
+					<li class="dropdown">
+		            	<a href="wire.html" class="dropdown-toggle" data-toggle="dropdown">Wire <b class="caret"></b></a>
+		            	<ul class="dropdown-menu nav-font-size">
+							<li><a href="wire.html#animals">animals</a></li>
+							<li><a href="wire.html#faces">faces</a></li>
+						</ul>
+		<!--paper links-->
+					</li><li class="dropdown">
+		            	<a href="paper.html#" class="dropdown-toggle" data-toggle="dropdown">Paper <b class="caret"></b></a>
+		            	<ul class="dropdown-menu nav-font-size">
+							<li><a href="paper.html#collage">collage</a></li>
+							<li><a href="paper.html#drawing">drawings</a></li>
+						</ul>
+					</li>
+		<!--about/contact link-->			
+					<li>
+						<a href="about.html">About & Contact</a>
+					</li>
+				</ul>
+			</div>
+	   	</div>
+    </nav>
+<!--NAVIGATION BAR ENDS-->
+
+
+	<div class="container-fluid container-width">
+	<!-- LOGO BEGINS -->
+		<!-- <div class="row">
+			<div class="col-md-12 col-lg-12 hidden-xs hidden-sm">
+				<header class="text-center">
+					<img id="" src="images/logos/logo.svg">
+				</header>
+			</div>
+		</div> -->
+	<!-- logo ENDS -->
+	
+		<div class="row">
+		<!-- CERAMIC-->
+			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 image-container">
+			<!-- ABSTRACT -->
+				<img src="images/index/abstract.jpg" class="img-responsive center-block" alt="Abstract Ceramic">
+				<div class="caption-box hidden-xs">
+					<a class="hover-link" href="ceramic.html#abstract">abstract</a>
+				</div>
+				<!-- only for xs mobile below -->
+				<div class="hidden-md hidden-lg hidden-sm">
+					<div class="mobile-caption-box">
+						<a class="link-vert-center black-text" href="ceramic.html#abstract">abstract</a>
+					</div>
+				</div>
+				<!-- only for xs mobile ENDS -->
+			</div>
+
+		<!-- CERAMIC -->
+			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 image-container">
+			<!-- BOWLS -->
+				<img src="images/index/bowls.jpg" class="img-responsive center-block" alt="Ceramic Bowls">
+				<div class="caption-box hidden-xs">
+					<a class="hover-link" href="ceramic.html#bowls">bowls</a>
+				</div>
+				<!-- only for xs mobile below -->
+				<div class="hidden-md hidden-lg hidden-sm">
+					<div class="mobile-caption-box">
+						<a class="link-vert-center black-text" href="ceramic.html#bowls">bowls</a>
+					</div>
+				</div>
+				<!-- only for xs mobile ENDS -->
+			</div>
+
+		<!-- CERAMIC -->
+			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 image-container">
+			<!-- FIGURES -->
+				<img src="images/index/figures.jpg" class="img-responsive center-block" alt="Ceramic Figures">
+				<div class="caption-box hidden-xs">
+					<a class="hover-link" href="ceramic.html#figures">figures</a>
+				</div>
+				<!-- only for xs mobile below -->
+				<div class="hidden-md hidden-lg hidden-sm">
+					<div class="mobile-caption-box">
+						<a class="link-vert-center black-text" href="ceramic.html#figures">figures</a>
+					</div>
+				</div>
+				<!-- only for xs mobile ENDS -->
+			</div>
+
+		<!-- CERAMIC -->
+			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 image-container">
+			<!-- VESSLES -->
+				<img src="images/index/vessles.jpg" class="img-responsive center-block" alt="Ceramic Vessles">
+				<div class="caption-box hidden-xs">
+					<a class="hover-link" href="ceramic.html#vessles">vessles</a>
+				</div>
+				<!-- only for xs mobile below -->
+				<div class="hidden-md hidden-lg hidden-sm">
+					<div class="mobile-caption-box">
+						<a class="link-vert-center black-text" href="ceramic.html#vessles">vessles</a>
+					</div>
+				</div>
+				<!-- only for xs mobile ENDS -->
+			</div>
+
+		<!-- WIRE -->
+			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 image-container">
+			<!-- ANIMALS -->
+				<img src="images/index/wire_animals.jpg" class="img-responsive center-block" alt="Wire Animals">
+				<div class="caption-box hidden-xs">
+					<a class="hover-link" href="wire.html#animals">wire animals</a>
+				</div>
+				<!-- only for xs mobile below -->
+				<div class="hidden-md hidden-lg hidden-sm">
+					<div class="mobile-caption-box">
+						<a class="link-vert-center black-text" href="wire.html#animals">wire animals</a>
+					</div>
+				</div>
+				<!-- only for xs mobile ENDS -->
+			</div>
+
+		<!-- WIRE -->
+			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 image-container">
+			<!-- FACES -->
+				<img src="images/index/wire_faces.jpg" class="img-responsive center-block" alt="Wire Faces">
+				<div class="caption-box hidden-xs">
+					<a class="hover-link" href="wire.html#faces">wire faces</a>
+				</div>
+				<!-- only for xs mobile below -->
+				<div class="hidden-md hidden-lg hidden-sm">
+					<div class="mobile-caption-box">
+						<a class="link-vert-center black-text" href="wire.html#faces">wire faces</a>
+					</div>
+				</div>
+				<!-- only for xs mobile ENDS -->
+			</div>
+
+		<!-- PAPER -->
+			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 image-container">
+			<!-- COLLAGE -->
+				<img src="images/index/collage.jpg" class="img-responsive center-block" alt="Paper Collage">
+				<div class="caption-box hidden-xs">
+					<a class="hover-link" href="paper.html#collage">collage</a>
+				</div>
+				<!-- only for xs mobile below -->
+				<div class="hidden-md hidden-lg hidden-sm">
+					<div class="mobile-caption-box">
+						<a class="link-vert-center black-text" href="paper.html#collage">collage</a>
+					</div>
+				</div>
+				<!-- only for xs mobile ENDS -->
+			</div>
+
+		<!-- PAPER -->
+			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 image-container">
+			<!-- DRAWING -->
+				<img src="images/index/drawings.jpg" class="img-responsive center-block" alt="Drawings">
+				<div class="caption-box hidden-xs">
+					<a class="hover-link" href="paper.html#drawing">drawings</a>
+				</div>
+				<!-- only for xs mobile below -->
+				<div class="hidden-md hidden-lg hidden-sm">
+					<div class="mobile-caption-box">
+						<a class="link-vert-center black-text" href="paper.html#drawing">drawings</a>
+					</div>
+				</div>
+				<!-- only for xs mobile ENDS -->
+			</div>
+		
+		<!-- ABOUT -->
+			<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 image-container">
+				<img src="images/index/about.jpg" class="img-responsive center-block" alt="Intro image">
+				<div class="caption-box hidden-xs">
+					<a class="hover-link" href="about.html">about</a>
+				</div>
+				<!-- only for xs mobile below -->
+				<div class="hidden-md hidden-lg hidden-sm">
+					<div class="mobile-caption-box">
+						<a class="link-vert-center black-text" href="about.html">about</a>
+					</div>
+				</div>
+				<!-- only for xs mobile ENDS -->
+			</div>
+			
+		</div>
+	</div>
+
+	<footer class="footer navbar-default navbar-fixed-bottom nav-transparent">
+		<div class="container">
+			<div class="row footer-center">
+				<a href="#" class="text-muted text-center navbar-text">top</a>
+			</div>
+		</div>
+	</footer>
+	</body>
+</html>

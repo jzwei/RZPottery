@@ -1,0 +1,193 @@
+body { /*giving padding to the body top and bottom so it does not fall under navbar or footer*/
+	padding-top: 75px;
+	padding-bottom: 2.5em;
+}
+
+hr.line-break { /*gradient line break between sections*/
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #FFFFFF, #eee, #FFFFFF);
+}
+
+/*text styling*/
+	.font { 
+		font-family: 'Shadows Into Light', cursive;
+	}
+
+	.grey-text {  /*making text grey*/
+		color: grey;
+	}
+
+	.black-text {  /*making text grey*/
+		color: black;
+	}
+	.align-left { /*aligning text left*/
+		text-align: left;
+	}
+
+	.align-center { /*aligning text center*/
+		text-align: center;
+	}
+	.bold {
+		font-weight: 700;
+	}
+	/*heading styling*/
+	h3 {
+		text-align: center;
+	}
+	h4 {
+		text-align: center;
+	}
+	h5 {
+		text-align: center;
+	}
+	/*heading styling ENDS*/
+/*text styling ENDS*/
+
+/*NAVIGATION BAR*/
+	.nav-font-size { /*font size within navigation bar*/
+		font-size: 1.3em;
+	}
+
+	.nav-transparent { /*making the full navbar and footer transparent*/
+		background-color: rgba(255, 255, 255, 0.9);
+	}
+
+/*LOGOS*/
+	#fingers_logo { /*sizing the header fingers crossed logo*/
+		height: 145px;
+		margin: 15px;
+		/*padding-top: 2%;*/
+	}
+
+	#mobile-logo { /*sizing the mobile logo*/
+		width: 15px;
+	}
+
+	@media (min-width: 768px) { /*sizing the mobile logo for tablet*/
+		#mobile-logo {
+			width: 20px;
+		}
+	}
+/*logo stuff ENDS*/
+
+/*container styles*/
+	.container-width { /*restricting the width of the container*/
+		width: 90%;
+	}
+
+	.image-container { /*adding margin and padding to images within container*/
+		margin: auto;
+		padding: 15px;
+		position: relative;
+		display: inline-block;
+	}
+/*container styles END*/
+
+/*hover stuff*/
+	.caption-box {
+	    background: white;
+	    height: 100%;
+	    width: 100%;
+	    opacity: 0;
+	    top: 0;
+	    left: 0;
+	    position: absolute;
+	    display: inline-block;
+	    padding: 0;
+	  }
+
+	 .hover-link {
+		color: black;
+		font-weight: bold;
+		font-size: 2em;
+	  }
+
+	 .caption-box:hover {
+	    opacity: .7;
+	    transition: opacity .9s;
+	    line-height: 290px;
+	    text-align: center;
+	  }
+/*end hover stuff*/
+/*mobile index page image links*/
+	.mobile-caption-box { /*instead of hover on xs making link always visible*/
+		background: white;
+		opacity: .7;
+	    height: 25%;
+	    width: 100%;
+	    position: absolute;
+	    bottom: 0;
+	    text-align: center;
+	    font-size: 1em;
+	}
+
+	.link-vert-center { /*vertically centering the mobile link over its container*/
+		position: absolute;
+		transform: translate(-70%, -50%);
+		top: 50%;
+	}
+/*mobile index link style ENDS*/
+
+/*footer styling*/
+	footer { /*giving height to the footer*/
+		height: 2.5em;
+	}
+
+	.footer-center { /*vertically centers text within footer*/
+	    margin: 0;
+	    position: absolute;
+	    top: 50%;
+	    transform: translate(0, -50%);
+	    width:100%;
+	}
+/*footer styling ENDS*/
+
+/*LINK STYLING*/
+	a:link {
+		color: black;
+	}
+	a:visited {
+		color: d#333;
+	}
+	a:hover {
+		text-decoration: underline;
+		color: darkorange;
+	}
+	a:active {
+		text-decoration: underline;
+	}
+
+	/*hidden links...*/
+	.hidden-link:link {
+		color: grey;
+	}
+	.hidden-link:visited {
+		color: grey;
+	}
+	.hidden-link:hover {
+		color: grey;
+		text-decoration: none;
+	}
+	.hidden-link:active {
+		color: grey;
+	}
+/*LINK STYLING ENDS*/
+
+/*about page*/
+.col-center {  /*centering the content within the column*/
+	margin: auto;
+}
+
+.top-pad {
+	padding-top: 3px;
+}
+
+.bottom-pad {
+	padding-bottom: 3px;
+}
+
+#email { /*center aligning email address*/
+	text-align: center;
+}
+
