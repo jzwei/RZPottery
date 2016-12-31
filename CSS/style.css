@@ -191,3 +191,29 @@ hr.line-break { /*gradient line break between sections*/
 	text-align: center;
 }
 
+.date {
+	font-size: 3vw;
+}
+.list {
+	font-size: 2vw;
+}
+
+.about-h2 {
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 3vw;
+}
+.magazine {
+	list-style: none;
+}
+.mag-img {
+	max-width: 300px;
+
+}
+
+h1 {
+	font-size: 4vw;
+	text-decoration: underline;
+	font-weight: bolder;
+	text-align: center;
+}
