@@ -1,0 +1,78 @@
+
+
+body {
+	overflow: hidden;
+}
+
+.font { 
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.black-text {  /*making text black*/
+		color: black;
+	}
+
+.home-title {
+	font-size: 50px;
+}
+
+.home-nav-links {
+	list-style: none;
+	color: black;
+	font-size: 30px;
+}
+
+.home-transparent-box {
+	background-color: rgba(255,255,255,0.5);
+	opacity: 1;
+	padding: 50px;
+}
+
+.vert-center {
+	vertical-align: middle;
+}
+
+/*LINK STYLING*/
+	a:link {
+		color: black;
+	}
+	a:visited {
+		color: black;
+	}
+	a:hover {
+		text-decoration: underline;
+		color: darkorange;
+	}
+	a:active {
+		text-decoration: underline;
+	}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+.site-wrapper {
+		background-image: url("backgrounds/background.jpg");
+	}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.site-wrapper {
+		background-image: url("backgrounds/background2.jpg");
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+/*@media (min-width: 922px) {
+	.site-wrapper {
+		background-image: url("backgrounds/background-sm.jpg");
+	}
+
+}*/
+
+/* Large devices (large desktops, 1200px and up) */
+/*@media (min-width: 1200px) {
+	.site-wrapper {
+		background-image: url("backgrounds/background-md.jpg");
+	}
+
+}*/
