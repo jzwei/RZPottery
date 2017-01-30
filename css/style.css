@@ -3,7 +3,6 @@ body { /*giving padding to the body top and bottom so it does not fall under nav
 	padding-bottom: 2.5em;
 }
 
-
 hr.line-break { /*gradient line break between sections*/
   border: 0; 
   height: 1px; 
@@ -30,10 +29,14 @@ hr.line-break { /*gradient line break between sections*/
 		font-weight: bolder;
 		text-align: center;
 	}
+	#about {
+		margin-top: 0px;
+	}
 	.about-h2 {
 		text-decoration: underline;
 		font-weight: bold;
 		font-size: 3em;
+		text-align: center;
 	}
 	h3 {
 		text-align: center;
@@ -49,6 +52,7 @@ hr.line-break { /*gradient line break between sections*/
 
 	.nav-transparent { /*making the full navbar and footer transparent*/
 		background-color: rgba(255, 255, 255, 0.9);
+		margin-bottom: 0px;
 	}
 
 /*container styles*/
@@ -61,6 +65,13 @@ hr.line-break { /*gradient line break between sections*/
 		padding: 15px;
 		position: relative;
 		display: inline-block;
+	}
+
+	.white-box {
+		background-color: white;
+		padding: 10px;
+		max-width: 900px;
+		margin: auto;
 	}
 /*container styles END*/
 
@@ -87,12 +98,25 @@ hr.line-break { /*gradient line break between sections*/
 .list { /*text format for resume page list*/
 	font-size: 1.5em;
 }
-
 .magazine { /* removing bullet for resume page magazine image*/
 	list-style: none;
 }
 .mag-img { /*image format for resume page photo*/
 	max-width: 30%;
+}
+.about-img {
+	margin: auto;
+	padding-bottom: 15px;
+}
+.center {
+	text-align: center;
+}
+.blurb > p {
+	font-size: 1.4em;
+	text-align: center;
+	max-width: 800px;
+	margin: auto;
+	padding: 10px;
 }
 
 /*footer styling*/
