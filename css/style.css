@@ -118,6 +118,9 @@ hr.line-break { /*gradient line break between sections*/
 	margin: auto;
 	padding: 10px;
 }
+#exhibitions {
+	border-right: 1px solid white;
+
 
 /*footer styling*/
 	footer { /*giving height to the footer*/
@@ -132,3 +135,9 @@ hr.line-break { /*gradient line break between sections*/
 	    width:100%;
 	}
 /*footer styling ENDS*/
+
+
+}
+
+
+
