@@ -1,6 +1,6 @@
-body { /*giving padding to the body top and bottom so it does not fall under navbar or footer*/
+.body-padding { /*giving padding to the body top and bottom so it does not fall under navbar or footer*/
 	padding-top: 75px;
-	padding-bottom: 2.5em;
+	padding-bottom: 5em;
 }
 
 hr.line-break { /*gradient line break between sections*/
@@ -18,6 +18,11 @@ hr.line-break { /*gradient line break between sections*/
 	.grey-text {  /*making text grey*/
 		color: grey;
 	}
+
+	.black-text {  /*making text black*/
+		color: black;
+	}
+
 	.dropdown-menu>li>a {
 		color: grey;
 	}
@@ -80,7 +85,7 @@ hr.line-break { /*gradient line break between sections*/
 		color: black;
 	}
 	a:visited {
-		color: d#333;
+		color: black;
 	}
 	a:hover {
 		text-decoration: underline;
@@ -121,7 +126,6 @@ hr.line-break { /*gradient line break between sections*/
 #exhibitions {
 	border-right: 1px solid white;
 
-
 /*footer styling*/
 	footer { /*giving height to the footer*/
 		height: 2.5em;
@@ -136,8 +140,55 @@ hr.line-break { /*gradient line break between sections*/
 	}
 /*footer styling ENDS*/
 
+}
+
+/*index page*/
+.home-title {
+	font-size: 50px;
+}
+
+.home-nav-links {
+	list-style: none;
+	color: black;
+	font-size: 30px;
+}
+
+.home-transparent-box {
+	background-color: rgba(255,255,255,0.5);
+	opacity: 1;
+	padding: 50px;
+}
+
+.vert-center {
+	vertical-align: middle;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+.site-wrapper {
+		background-image: url("backgrounds/background.jpg");
+	}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.site-wrapper {
+		background-image: url("backgrounds/background2.jpg");
+	}
 
 }
 
+/* Medium devices (desktops, 992px and up) */
+/*@media (min-width: 922px) {
+	.site-wrapper {
+		background-image: url("backgrounds/background-sm.jpg");
+	}
 
+}*/
 
+/* Large devices (large desktops, 1200px and up) */
+/*@media (min-width: 1200px) {
+	.site-wrapper {
+		background-image: url("backgrounds/background-md.jpg");
+	}
+
+}*/
