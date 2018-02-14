@@ -188,13 +188,13 @@ hr.line-break { /*gradient line break between sections*/
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 .site-wrapper {
-		background-image: url("backgrounds/background.jpg");
+		background-image: url("backgrounds/background3.jpg");
 	}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	.site-wrapper {
-		background-image: url("backgrounds/background2.jpg");
+		background-image: url("backgrounds/background3.jpg");
 	}
 
 }
